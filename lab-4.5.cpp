@@ -1,4 +1,3 @@
-//! поставити дужки в умові
 #include <iostream>
 #include <iomanip>
 #include <time.h>
@@ -15,7 +14,7 @@ int main() {
         cout << "x = "; cin >> x;
         cout << "y = "; cin >> y;
 
-        if(((y >= x) && (x * x + y * y <= R * R) && x >= 0) || (y <= x ) && (x * x + y * y <= R * R) && (x <= 0)) {
+        if(((y >= x) && (x * x + y * y <= R * R) && (x >= 0)) || ((y <= x ) && (x * x + y * y <= R * R) && (x <= 0))) {
             cout << "yes" << endl;
         }
         else {
